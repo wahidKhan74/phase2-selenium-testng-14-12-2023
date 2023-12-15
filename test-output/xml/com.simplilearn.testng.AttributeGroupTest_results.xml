@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Group Test"
+           tests="5"
+           failures="1"
+           errors="0"
+           skipped="1"
+           time="0.211">
+  <properties />
+            <testcase name="r2" time="0.208" classname="com.simplilearn.testng.AttributeGroupTest">
+                <failure type="org.testng.internal.thread.ThreadTimeoutException"
+                  message="Method com.simplilearn.testng.AttributeGroupTest.r2() didn&apos;t finish within the time-out 200"
+              >
+<![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method com.simplilearn.testng.AttributeGroupTest.r2() didn't finish within the time-out 200
+  java.base@17.0.4.1/java.lang.Thread.sleep(Native Method)
+  app//com.simplilearn.testng.AttributeGroupTest.r2(AttributeGroupTest.java:45)
+  java.base@17.0.4.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base@17.0.4.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+  java.base@17.0.4.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base@17.0.4.1/java.lang.reflect.Method.invoke(Method.java:568)
+  app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+  app//org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
+  app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:76)
+  app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:11)
+  java.base@17.0.4.1/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+  java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+  java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+  java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+]]>
+      </failure>
+
+          </testcase>
+  
+            <testcase name="r3" time="0.0" classname="com.simplilearn.testng.AttributeGroupTest">
+          <skipped />
+    </testcase>
+  
+            <testcase name="r1" time="0.001" classname="com.simplilearn.testng.AttributeGroupTest" />
+                <testcase name="testTwo" time="0.001" classname="com.simplilearn.testng.AttributeGroupTest" />
+                <testcase name="testOne" time="0.001" classname="com.simplilearn.testng.AttributeGroupTest" />
+      
+</testsuite>

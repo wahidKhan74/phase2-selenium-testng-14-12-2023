@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Amazon Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="7.177">
+  <properties />
+  
+  
+            <testcase name="linkTest2" time="2.857" classname="com.simplilearn.testng.amazon.AmazonLinkVerificationTest" />
+                <testcase name="linkTest1" time="4.320" classname="com.simplilearn.testng.amazon.AmazonLinkVerificationTest" />
+      
+</testsuite>

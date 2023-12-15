@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Other Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.003">
+  <properties />
+  
+  
+            <testcase name="testTwo" time="0.002" classname="com.simplilearn.testng.TestNgStandardAnnotationTest" />
+                <testcase name="testOne" time="0.001" classname="com.simplilearn.testng.TestNgStandardAnnotationTest" />
+      
+</testsuite>
