@@ -42,7 +42,7 @@ public class AttributeGroupTest {
 	@Test(groups = "Regression Test" , timeOut = 200)
 	public void r2() throws InterruptedException {
 		// fail();
-		Thread.sleep(500);
+		Thread.sleep(200);
 		System.out.println("--- Test R2 is executed ---");
 	}
 	
