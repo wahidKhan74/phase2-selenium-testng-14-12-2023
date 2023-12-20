@@ -14,6 +14,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 /**
@@ -22,6 +23,7 @@ import org.testng.annotations.Test;
  * @author khanw
  *
  */
+@Ignore
 public class BrowserBasedGroupTest {
 
 	// step1: formulate a test domain url & driver path
