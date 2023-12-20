@@ -29,8 +29,8 @@ pipeline {
                        allowMissing: false, 
                        alwaysLinkToLastBuild: false, 
                        keepAll: false, 
-                       reportDir: 'target/surefire-reports/', 
-                       reportFiles: 'test-output/html/index.html', 
+                       reportDir: 'test-output/html/', 
+                       reportFiles: 'index.html', 
                        reportName: 'HTML Report', 
                        reportTitles: '', 
                        useWrapperFileDirectly: true])
