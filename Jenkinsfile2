@@ -7,14 +7,6 @@ pipeline {
 	}
 	
 	stages {
-	
-		stage('Verify stage') {
-			steps {
-				echo '--------------:: This is a verify stage :: ------------'
-				bat 'mvn clean verify'
-			}
-	
-		}
 		
 		stage('Compile stage') {
 			steps {
