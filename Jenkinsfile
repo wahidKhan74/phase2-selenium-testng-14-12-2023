@@ -10,7 +10,7 @@ pipeline {
 	
 		stage('Verify stage') {
 			steps {
-				echo '--------------:: This is a verify stage :: ------------');
+				echo '--------------:: This is a verify stage :: ------------')
 				sh 'mvn clean verify'
 			}
 	
@@ -18,7 +18,7 @@ pipeline {
 		
 		stage('Compile stage') {
 			steps {
-				echo '--------------:: This is a compile stage :: ------------');
+				echo '--------------:: This is a compile stage :: ------------')
 				sh 'mvn clean compile'
 			}
 	
@@ -26,7 +26,7 @@ pipeline {
 		
 		stage('Test stage') {
 			steps {
-				echo '--------------:: This is a compile stage :: ------------');
+				echo '--------------:: This is a compile stage :: ------------')
 				sh 'mvn clean test'
 			}
 	
