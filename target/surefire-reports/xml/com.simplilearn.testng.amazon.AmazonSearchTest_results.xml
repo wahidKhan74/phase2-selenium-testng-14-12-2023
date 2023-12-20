@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Surefire test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="7.449">
+  <properties />
+  
+  
+            <testcase name="testSearch1" time="4.382" classname="com.simplilearn.testng.amazon.AmazonSearchTest" />
+                <testcase name="testSearch2" time="3.067" classname="com.simplilearn.testng.amazon.AmazonSearchTest" />
+      
+</testsuite>

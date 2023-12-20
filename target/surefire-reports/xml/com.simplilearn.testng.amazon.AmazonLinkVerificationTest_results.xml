@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Surefire test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="5.424">
+  <properties />
+  
+  
+            <testcase name="linkTest1" time="2.867" classname="com.simplilearn.testng.amazon.AmazonLinkVerificationTest" />
+                <testcase name="linkTest2" time="2.557" classname="com.simplilearn.testng.amazon.AmazonLinkVerificationTest" />
+      
+</testsuite>

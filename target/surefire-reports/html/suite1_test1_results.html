@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Surefire test</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Surefire test</h1>
+<p>
+  Test duration: 202.376s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.simplilearn.testng.AttributeGroupTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  r2
+      </td>
+  <td class="duration">
+    0.210s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.testng.internal.thread.ThreadTimeoutException: Method com.simplilearn.testng.AttributeGroupTest.r2() didn&apos;t finish within the time-out 200</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              java.base@16.0.2/java.lang.Thread.sleep(Native Method)<br />
+              app//com.simplilearn.testng.AttributeGroupTest.r2(AttributeGroupTest.java:45)<br />
+              java.base@16.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base@16.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)<br />
+              java.base@16.0.2/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base@16.0.2/java.lang.reflect.Method.invoke(Method.java:567)<br />
+              app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
+              app//org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)<br />
+              app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:76)<br />
+              app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:11)<br />
+              java.base@16.0.2/java.util.concurrent.FutureTask.run(FutureTask.java:264)<br />
+              java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)<br />
+              java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)<br />
+              java.base@16.0.2/java.lang.Thread.run(Thread.java:831)<br />
+                </div>
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.simplilearn.testng.amazon.AmazonLinkVerificationXpathTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="Test Today deals Title Match">xpathLinkTest2</span>
+      </td>
+  <td class="duration">
+    0.814s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[1]/header/div/div[4]/div[2]/div[2]/div/a[5]<br/>
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception<br/>
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;<br/>
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Command: [b76dd29d-7822-491e-8a15-a70a4c5abfb1, findElement {using=xpath, value=/html/body/div[1]/header/div/div[4]/div[2]/div[2]/div/a[5]}]<br/>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:debuggerAddress: 127.0.0.1:3669, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 22408, moz:profile: C:\Users\khanw\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:3669/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
+Session ID: b76dd29d-7822-491e-8a15-a70a4c5abfb1</b></a><br />
+    <div class="stackTrace" id="exception-1">
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)<br />
+              java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)<br />
+              java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)<br />
+              org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)<br />
+              org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)<br />
+              com.simplilearn.testng.amazon.AmazonLinkVerificationXpathTest.xpathLinkTest2(AmazonLinkVerificationXpathTest.java:67)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:567)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:848)<br />
+              org.testng.TestRunner.run(TestRunner.java:621)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:336)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1114)<br />
+              org.testng.TestNG.run(TestNG.java:1082)<br />
+              org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115)<br />
+              org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:205)<br />
+              org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:108)<br />
+              org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)<br />
+                </div>
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.simplilearn.testng.group.BrowserBasedGroupTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  launchChrome
+      </td>
+  <td class="duration">
+    0.113s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.remote.NoSuchDriverException: chromedriver located at drivers/windows/chromedriver.exe, but invalid<br/>
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/<br/>
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;<br/>
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;<br/>
+Driver info: driver.version: ChromeDriver</b></a><br />
+    <div class="stackTrace" id="exception-2">
+              org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:45)<br />
+              org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)<br />
+              org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:100)<br />
+              org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:89)<br />
+              org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:84)<br />
+              org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:52)<br />
+              com.simplilearn.testng.group.BrowserBasedGroupTest.launchChrome(BrowserBasedGroupTest.java:43)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:567)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:848)<br />
+              org.testng.TestRunner.run(TestRunner.java:621)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:336)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1114)<br />
+              org.testng.TestNG.run(TestNG.java:1082)<br />
+              org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115)<br />
+              org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:205)<br />
+              org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:108)<br />
+              org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  testFailureLogin
+      </td>
+  <td class="duration">
+    41.122s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-3', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.WebDriverException: Failed to decode response from marionette<br/>
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;<br/>
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Command: [0a687832-ecb1-411a-ae4b-498cb4909db6, findElement {using=css selector, value=#loginform &gt; div:nth-child(12) &gt; div._9ay7}]<br/>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:debuggerAddress: 127.0.0.1:9122, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12200, moz:profile: C:\Users\khanw\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:9122/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
+Session ID: 0a687832-ecb1-411a-ae4b-498cb4909db6</b></a><br />
+    <div class="stackTrace" id="exception-3">
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)<br />
+              java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)<br />
+              java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)<br />
+              org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)<br />
+              org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)<br />
+              org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)<br />
+              org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)<br />
+              org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)<br />
+              com.simplilearn.testng.group.BrowserBasedGroupTest.testFailureLogin(BrowserBasedGroupTest.java:115)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:567)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:848)<br />
+              org.testng.TestRunner.run(TestRunner.java:621)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:336)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1114)<br />
+              org.testng.TestNG.run(TestNG.java:1082)<br />
+              org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115)<br />
+              org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:205)<br />
+              org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:108)<br />
+              org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+  <table class="resultsTable" width="100%">
+    <tr><th colspan="3" class="header skipped">Skipped Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.simplilearn.testng.AttributeGroupTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  r3
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                       <i>Depends on group(s): </i>
+        <span class="dependency">Regression Test</span>
+        <br />
+                      
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.simplilearn.testng.group.BrowserBasedGroupTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  closeChrome
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                       <i>Depends on group(s): </i>
+        <span class="dependency">ChromeOnly</span>
+        <br />
+                      
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  closeFireFox
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                       <i>Depends on group(s): </i>
+        <span class="dependency">FireFoxOnly</span>
+        <br />
+                      
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="Test Amazon Home Page Title Invalid Match">testAmazonHomePageTitle2</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                             <i>Depends on method(s): </i>
+        <span class="dependency">com.simplilearn.testng.group.BrowserBasedGroupTest.launchChrome</span>
+                
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="Test Amazon Home Page Source Url">testHomePageSourceUrl</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                             <i>Depends on method(s): </i>
+        <span class="dependency">com.simplilearn.testng.group.BrowserBasedGroupTest.launchChrome</span>
+                
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="Test Amazon Home Page Title Match">testHomePageTitle</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                             <i>Depends on method(s): </i>
+        <span class="dependency">com.simplilearn.testng.group.BrowserBasedGroupTest.launchChrome</span>
+                
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="Search Iphone 15 pro max">testSearch1</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                             <i>Depends on method(s): </i>
+        <span class="dependency">com.simplilearn.testng.group.BrowserBasedGroupTest.launchChrome</span>
+                
+    
+        
+
+      </td>
+</tr>
+      </table>
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.simplilearn.testng.AssertionTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="Hard Assert method Test">hardAssertTest</span>
+      </td>
+  <td class="duration">
+    0.006s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="Soft Assert method Test">softAssertTest</span>
+      </td>
+  <td class="duration">
+    0.029s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  testAsserts
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.simplilearn.testng.AttributeGroupTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  r1
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="The sample Test One">testOne</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="The sample Test Two">testTwo</span>
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.simplilearn.testng.TestNgStandardAnnotationTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  testOne
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  testTwo
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.simplilearn.testng.amazon.AmazonHomePageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="Test Amazon Home Page Source Url">testAmazonHomePageSourceUrl</span>
+      </td>
+  <td class="duration">
+    0.016s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="Test Amazon Home Page Title Match">testAmazonHomePageTitle</span>
+      </td>
+  <td class="duration">
+    0.016s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="Test Amazon Home Page Title Invalid Match">testAmazonHomePageTitle2</span>
+      </td>
+  <td class="duration">
+    0.055s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.simplilearn.testng.amazon.AmazonLinkVerificationCssSelectorTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="Test Amazon Mobile Phones Title Match">tdLinkTest1</span>
+      </td>
+  <td class="duration">
+    4.508s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="Test Amazon Mobile Phones Title Match">tdLinkTest2</span>
+      </td>
+  <td class="duration">
+    2.776s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.simplilearn.testng.amazon.AmazonLinkVerificationTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="Test Amazon Mobile Phones Title Match">linkTest1</span>
+      </td>
+  <td class="duration">
+    2.867s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="Verify the Todays deals link">linkTest2</span>
+      </td>
+  <td class="duration">
+    2.557s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.simplilearn.testng.amazon.AmazonLinkVerificationXpathTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="Test Amazon Mobile Phones Title Match">xpathLinkTest1</span>
+      </td>
+  <td class="duration">
+    4.925s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.simplilearn.testng.amazon.AmazonSearchTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="Search Iphone 15 pro max">testSearch1</span>
+      </td>
+  <td class="duration">
+    4.382s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="Search Iphone 15 pro max">testSearch2</span>
+      </td>
+  <td class="duration">
+    3.067s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.simplilearn.testng.group.BrowserBasedGroupTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  launchFireFoxTest
+      </td>
+  <td class="duration">
+    25.515s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  testFaceBookHomePage
+      </td>
+  <td class="duration">
+    0.009s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>

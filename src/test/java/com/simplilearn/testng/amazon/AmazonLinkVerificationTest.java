@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
@@ -32,8 +33,12 @@ public class AmazonLinkVerificationTest {
 		// step2: set system properties for selenium dirver
 		System.setProperty("webdriver.geckodriver.driver", driverPath);
 
+		// set headless driver option : run test in the background
+		FirefoxOptions options = new FirefoxOptions();
+		options.addArguments("--headless");
+
 		// step3: instantiate selenium webdriver
-		driver = new FirefoxDriver();
+		driver = new FirefoxDriver(options);
 
 		// step4: launch browser
 		driver.get(siteUrl);

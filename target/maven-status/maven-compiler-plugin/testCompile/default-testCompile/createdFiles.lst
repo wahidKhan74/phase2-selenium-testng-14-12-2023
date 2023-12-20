@@ -1,0 +1,9 @@
+com\simplilearn\testng\amazon\AmazonLinkVerificationXpathTest.class
+com\simplilearn\testng\AttributeGroupTest.class
+com\simplilearn\testng\group\BrowserBasedGroupTest.class
+com\simplilearn\testng\AssertionTest.class
+com\simplilearn\testng\TestNgStandardAnnotationTest.class
+com\simplilearn\testng\amazon\AmazonLinkVerificationTest.class
+com\simplilearn\testng\amazon\AmazonHomePageTest.class
+com\simplilearn\testng\amazon\AmazonLinkVerificationCssSelectorTest.class
+com\simplilearn\testng\amazon\AmazonSearchTest.class

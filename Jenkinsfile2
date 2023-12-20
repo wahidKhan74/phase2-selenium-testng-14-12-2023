@@ -1,0 +1,37 @@
+pipeline {
+
+	agent any
+	
+	triggers {
+		pollSCM('* * * * *)
+	}
+	
+	stages {
+	
+		stage('Verify stage') {
+			steps {
+				echo '--------------:: This is a verify stage :: ------------');
+				bat 'mvn clean verify'
+			}
+	
+		}
+		
+		stage('Compile stage') {
+			steps {
+				echo '--------------:: This is a compile stage :: ------------');
+				bat 'mvn clean compile'
+			}
+	
+		}
+		
+		stage('Test stage') {
+			steps {
+				echo '--------------:: This is a compile stage :: ------------');
+				bat 'mvn clean test'
+			}
+	
+		}
+		
+	}
+
+}

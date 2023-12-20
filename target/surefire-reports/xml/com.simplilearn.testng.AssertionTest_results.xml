@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Surefire test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.036">
+  <properties />
+  
+  
+            <testcase name="hardAssertTest" time="0.006" classname="com.simplilearn.testng.AssertionTest" />
+                <testcase name="softAssertTest" time="0.029" classname="com.simplilearn.testng.AssertionTest" />
+                <testcase name="testAsserts" time="0.001" classname="com.simplilearn.testng.AssertionTest" />
+      
+</testsuite>

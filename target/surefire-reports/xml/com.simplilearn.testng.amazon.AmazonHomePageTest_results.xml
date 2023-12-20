@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Surefire test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.087">
+  <properties />
+  
+  
+            <testcase name="testAmazonHomePageTitle2" time="0.055" classname="com.simplilearn.testng.amazon.AmazonHomePageTest" />
+                <testcase name="testAmazonHomePageSourceUrl" time="0.016" classname="com.simplilearn.testng.amazon.AmazonHomePageTest" />
+                <testcase name="testAmazonHomePageTitle" time="0.016" classname="com.simplilearn.testng.amazon.AmazonHomePageTest" />
+      
+</testsuite>
