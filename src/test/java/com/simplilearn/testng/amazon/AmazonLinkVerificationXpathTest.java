@@ -69,7 +69,7 @@ public class AmazonLinkVerificationXpathTest {
 
 	@Test(description = "Test Today deals Title Match")
 	public void xpathLinkTest2() throws InterruptedException {
-		WebElement tdLink = driver.findElement(By.xpath("/html/body/div[1]/header/div/div[4]/div[2]/div[2]/div/a[5]"));
+		WebElement tdLink = driver.findElement(By.xpath("//*[@id="nav-xshop"]/a[5]"));
 
 		System.out.println("Is link loaded :: " + tdLink.isDisplayed());
 		System.out.println("Is link is enabled :: " + tdLink.isEnabled());
